@@ -98,7 +98,7 @@ public class AppTest {
 		TableReader reader = new TableReader(new Scanner("2\n"
 				+ "\n"
 				+ "\n"));
-		Table excelTable = reader.createTable();
+		reader.createTable();
 	}
 	
 	@Test
@@ -108,7 +108,7 @@ public class AppTest {
 		TableReader reader = new TableReader(new Scanner("1	-3\n"
 				+ "\n"
 				+ "\n"));
-		Table excelTable = reader.createTable();
+		reader.createTable();
 	}
 	
 	@Test
@@ -118,6 +118,6 @@ public class AppTest {
 		TableReader reader = new TableReader(new Scanner("2	2s\n"
 				+ "\n"
 				+ "\n"));
-		Table excelTable = reader.createTable();
+		reader.createTable();
 	}
 }
